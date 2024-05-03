@@ -1,4 +1,4 @@
-import './assets/styles.css';
+import '../assets/style.css';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTwitter } from '@fortawesome/free-brands-svg-icons';
@@ -11,7 +11,7 @@ function Header() {
         <FontAwesomeIcon icon={faTwitter} />
         <a href="#">Malagasy</a>
         <a href="#">My Page</a>
-        <a href="#">Logout</a>
+        <a href="#">Login</a>
       </div>
     </header>
   );

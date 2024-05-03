@@ -1,4 +1,4 @@
-import './assets/styles.css';
+import '../assets/style.css';
 import React from 'react';
 
 function Footer() {
