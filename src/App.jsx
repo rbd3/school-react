@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
-import Header from './component/Header';
-import Footer from './component/Footer';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Menu from './components/Menu';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
      <Header />
+     <Menu />
 
      <Footer />
     </>
