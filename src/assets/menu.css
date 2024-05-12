@@ -9,6 +9,7 @@ nav {
 
 .nav-item:hover {
     background-color: #d4c111;
+    border-radius: 15%;
     
 }
 
@@ -34,8 +35,7 @@ img {
 
   .collapse {
     display: flex;
-    justify-content: center;
-    margin-right: 30%;
+    margin-right: 20%;
   }
   
 
