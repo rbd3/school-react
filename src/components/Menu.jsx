@@ -14,23 +14,19 @@ function Menu() {
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto"> <li class="nav-item">
-          <a class="nav-link max-font-26" href="about.html">About</a>
+          <a class="nav-link max-font-26" href="about.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link max-font-26" href="#">Program</a>
+          <a class="nav-link max-font-26" href="#">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link max-font-26" href="#">Registration</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link max-font-26" href="#">Sponsor</a>
-        </li>
+        
         <li class="nav-item">
           <a class="nav-link max-font-26" href="#">News</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link max-font-26" href="#">Connexion</a>
+        </li>
       </ul>
-      <div class="nav-bottom d-flex ms-auto"> <button class="btn btn-primary max-font-26" type="button">School Story</button>
-      </div>
     </div>
   </div>
 </nav>
