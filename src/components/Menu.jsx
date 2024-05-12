@@ -1,36 +1,49 @@
-import React from "react";
-import '../assets/menu.css';
+import React, { useState } from "react";
+import { Navbar, Nav } from "react-bootstrap";
+import "../assets/menu.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
 function Menu() {
-    return (
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid"> <a class="navbar-brand" href="index.html">
-      <img class="logo" src="media/logo.png" alt="logo"></img>
-      <p class="max-font-26"><span>RBD School</span></p>
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    </div>
+  const [isNavOpen, setIsNavOpen] = useState(false);
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto"> <li class="nav-item">
-          <a class="nav-link max-font-26" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link max-font-26" href="#">About</a>
-        </li>
-        
-        <li class="nav-item">
-          <a class="nav-link max-font-26" href="#">News</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link max-font-26" href="#">Connexion</a>
-        </li>
-      </ul>
-    </div>
-</nav>
-    );
+  const handleNavToggle = () => {
+    setIsNavOpen(!isNavOpen);
+  };
+
+  return (
+    <Navbar expand="lg" bg="light" variant="light">
+      <Navbar.Brand className="menu-logo" href="index.html">
+        <img className="logo" src="media/logo.png" alt="logo" />
+        <p className="max-font-26">
+          <span>RBD School</span>
+        </p>
+      </Navbar.Brand>
+      <Navbar.Toggle className="menu-icons" aria-controls="basic-navbar-nav" onClick={handleNavToggle}>
+        {isNavOpen ? (
+          <FontAwesomeIcon icon={faTimes} />
+        ) : (
+          <FontAwesomeIcon icon={faBars} />
+        )}
+      </Navbar.Toggle>
+      <Navbar.Collapse id="basic-navbar-nav" className={isNavOpen ? "show" : ""}>
+        <Nav className="ml-auto">
+          <Nav.Link className="max-font-26 nav-item" href="#">
+            Home
+          </Nav.Link>
+          <Nav.Link className="max-font-26 nav-item" href="#">
+            About
+          </Nav.Link>
+          <Nav.Link className="max-font-26 nav-item" href="#">
+            News
+          </Nav.Link>
+          <Nav.Link className="max-font-26 nav-item" href="#">
+            Connexion
+          </Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
+  );
 }
 
 export default Menu;
