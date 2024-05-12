@@ -1,6 +1,9 @@
+
+
 nav {
     margin-top: 0%;
-    margin-left: 8%;
+    margin-left: 10%;
+    font-size: 24px;
 }
 
 
@@ -10,17 +13,29 @@ nav {
 }
 
 img {
-    width: 40%;
+    width: 30%;
     margin-top: 1%;
 }
 
+.navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+
 .container-fluid p {
     font-size: 24px;
-    margin-left: 43%;
+    font-weight: bolder;
+    margin-top: 5%;
 }
 
 .nav-item {
     margin: 0 0.8rem;
+  }
+
+  .collapse {
+    display: flex;
+    justify-content: center;
+    margin-right: 30%;
   }
   
 
