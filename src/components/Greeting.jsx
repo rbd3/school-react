@@ -1,4 +1,5 @@
 import React from "react";
+import '../assets/greeting.css'
 
 function Greeting() {
     return (   
@@ -14,7 +15,7 @@ function Greeting() {
                     Join us today and discover the benefits of our curriculum.
                 </p>
 
-                <p className="date">2023.05.22(Mon) ~ 26(FRI)</p>
+                <p className="date">2024.05.22(Mon) ~ 26(FRI)</p>
                 <p className="place">@ Port-Berge, Madagascar</p>
             </div>
         </section>

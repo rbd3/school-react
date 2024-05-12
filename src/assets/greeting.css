@@ -1,0 +1,13 @@
+
+h1 {
+    font-family: "COCOGOOSE", sans-serif;
+    font-weight: 900;
+    font-size: calc(10px + 1.6875vh + 2.6875vw);
+    text-transform: uppercase;
+    background-image: url(media/fire.jpg);
+    background-size: cover;
+    background-position: bottom;
+    color: transparent;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+  }
