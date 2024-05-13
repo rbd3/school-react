@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHandsHoldingChild, faTent, faDumbbell, faPersonRays } from "@fortawesome/free-solid-svg-icons";
 import '../assets/program.css';
 
 function Program() {
@@ -9,7 +11,7 @@ function Program() {
                     <h2 className="title max-font-26">Main Program</h2>
                     <div className="tag">
                         <div className="program-tag">
-                            <i className="program-img fa-solid fa-hands-holding-child card-icon"></i>
+                            <FontAwesomeIcon icon={faHandsHoldingChild} className="program-img card-icon" />
                             <h3 className="program-title">Education</h3>
                             <p className="program-detail">At RBD School, we revel in a culture of learning by doing, inculcating in the student the growth mindset.
                                 We foster a learning environment where our students seamlessly blend analytical rigor with boundless curiosity 
@@ -17,23 +19,22 @@ function Program() {
                             </p>
                         </div>
                         <div className="program-tag">
-                            <i className="program-img fa-solid fa-tent card-icon"></i>
+                            <FontAwesomeIcon icon={faTent} className="program-img card-icon" />
                             <h3 className="program-title">Admissions + Aids</h3>
                             <p className="program-detail">You can do your demand for admission online!</p>
                         </div>
                         <div className="program-tag">
-                            <i className="program-img fa-solid fa-dumbbell card-icon"></i>
+                            <FontAwesomeIcon icon={faDumbbell} className="program-img card-icon" />
                             <h3 className="program-title">Alumni</h3>
                             <p className="program-detail">You'll see here about some of the graduates and their testimony about the school</p>
                         </div>
                         <div className="program-tag">
-                            <i className="program-img fa-solid fa-person-rays card-icon"></i>
+                            <FontAwesomeIcon icon={faPersonRays} className="program-img card-icon" />
                             <h3 className="program-title">Activities</h3>
                             <p className="program-detail">Here speak about the Activities that the school prepares or takes part in</p>
                         </div>
                     </div>
-                    <button type="button" className="join-btn">Join RBD School Now</button>
-                    <a href="#" className="desktop-link max-font-26">See the whole program</a>
+                    <a href="#" className="desktop-link max-font-26"><button type="button" className="join-btn">Join RBD School Now</button></a>
                 </div>
             </div>
         </section>
