@@ -2,6 +2,7 @@
 #teachers {
     align-items: center;
     background-color: #fff;
+    margin-top: 5%;
   }
   
   .slick-arrow {
@@ -18,4 +19,40 @@
     width: 20%;
     height: 20%;
     background-color: black;
+  }
+
+  .teachers-title {
+    font-size: calc(2.5vw + 1vh);
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+
+  .teachers-card {
+    display: flex;
+    gap: 3%;
+    margin-left: 5%;
+  }
+
+  .teachers-img {
+    width: 20vw;
+    height: 40vh;
+  }
+
+  .teachers-name {
+    font-size: calc(1vw + 1vh);
+  }
+
+
+  .teachers-occ {
+    font-size: calc(0.8vw + 1vh);
+    color: #ec5242;
+  }
+
+  .teachers-para {
+    font-size: calc(0.6vw + 1vh);
+  }
+
+  hr{
+    width: 20%;
   }
