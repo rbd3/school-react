@@ -14,7 +14,7 @@ function Menu() {
   return (
     <Navbar expand="lg" bg="light" variant="light">
       <Navbar.Brand className="menu-logo" href="index.html">
-        <img className="logo" src="media/logo.png" alt="logo" />
+        <img className="logo" src="/media/logo.png" alt="logo" />
         <p className="max-font-26">
           <span>RBD School</span>
         </p>
