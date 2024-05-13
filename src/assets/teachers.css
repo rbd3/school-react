@@ -1,0 +1,21 @@
+
+#teachers {
+    align-items: center;
+    background-color: #fff;
+  }
+  
+  .slick-arrow {
+    width: 50%;
+    height: 20%;
+    color: black;
+  }
+
+  .rotate-180 {
+    transform: rotate(180deg);
+  }
+
+  .caroussel-wrapper {
+    width: 20%;
+    height: 20%;
+    background-color: black;
+  }
