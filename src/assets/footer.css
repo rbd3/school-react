@@ -1,0 +1,38 @@
+
+
+
+  footer p {
+    height: auto;
+    font-weight: 900;
+    font-size: calc(0.5vw + 1vw);
+    text-align: center;
+    color: black;
+  }
+  
+ 
+
+  footer {
+    margin-left: 12%;
+    margin-top: 8%;
+    display: flex;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+  }
+
+  img {
+    width: 60%;
+  }
+
+  .footer-links {
+    margin-left: 10%;
+    background-color: rgb(199, 218, 218);
+  }
+
+  .footer-logo {
+    font-size: calc(0.5vw + 1vw);
+    margin-left: 0%;
+    white-space: nowrap;
+  }

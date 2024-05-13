@@ -1,13 +1,15 @@
 
 import React from 'react';
+import '../assets/footer.css';
 
 function Footer() {
   return (
     <footer className="wrapper">
       <a href="index.html">
         <img className="logo" src="media/logo.png" alt="logo" />
-        <p className="max-font-26">RBD School</p>
+        <p className="max-font-26 footer-logo">RBD School</p>
       </a>
+      <div className="footer-links">
       <p className="max-font-26">
         2023 | RABEDESANA High School
         <span>
@@ -16,6 +18,7 @@ function Footer() {
           vero repellat, consequuntur itaque maiores fugit sequi ullam exercitationem repudiandae magni?
         </span>
       </p>
+      </div>
     </footer>
   );
 }
