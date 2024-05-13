@@ -9,7 +9,10 @@
     color: rgb(80, 85, 85);
   }
   
- 
+ footer p span {
+    font-size: calc(0.3vw + 1vw);
+    font-weight: 550;
+ }
 
   footer {
     margin-left: 12%;
