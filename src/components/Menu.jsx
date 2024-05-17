@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import "../assets/menu.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
