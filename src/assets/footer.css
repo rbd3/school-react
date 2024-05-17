@@ -1,43 +1,78 @@
+/* Apply the background color to the entire footer */
+.footer-wrapper {
+  background-color: rgb(164, 133, 192);
+  padding: 3%; /* Optional: Add some padding for better spacing */
+  display: flex;
+  align-items: center;
+}
 
+/* Adjust styles for p elements inside the footer */
+.footer-wrapper p {
+  height: auto;
+  font-weight: 900;
+  font-size: calc(0.5vw + 1vw);
+  text-align: center;
+  color: white;
+}
 
+.footer-wrapper p span {
+  font-size: calc(0.3vw + 1vw);
+  font-weight: 550;
+}
 
-  footer p {
-    height: auto;
-    font-weight: 900;
-    font-size: calc(0.5vw + 1vw);
-    text-align: center;
-    color: rgb(80, 85, 85);
-  }
-  
- footer p span {
-    font-size: calc(0.3vw + 1vw);
-    font-weight: 550;
- }
+/* Adjust styles for the footer */
+.footer-wrapper {
+  margin-top: 8%;
+  display: flex;
+}
 
-  footer {
-    margin-left: 12%;
-    margin-top: 8%;
-    display: flex;
-  }
+a {
+  display: flex;
+  align-items: center;
+  text-decoration: none !important;
+}
 
-  a {
-    display: flex;
+img {
+  width: 60%;
+}
+
+.footer-links {
+  margin-left: 20%;
+}
+
+.footer-logo {
+  font-size: calc(0.5vw + 1vw);
+  margin-left: 5%;
+  white-space: nowrap;
+  color: rgb(58, 61, 61);
+}
+
+@media (max-width: 768px) {
+  .footer-wrapper {
     align-items: center;
-    text-decoration: none !important;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 5%;
   }
 
-  img {
-    width: 60%;
+  .footer-wrapper p {
+    font-size: calc(0.7vw + 1vh); /* Adjust font size for mobile */
+  }
+
+  .footer-wrapper p span {
+    font-size: calc(0.5vw + 1vh);
   }
 
   .footer-links {
-    margin-left: 10%;
-    
+    margin-left: -50%;
   }
 
   .footer-logo {
-    font-size: calc(0.5vw + 1vw);
-    margin-left: 0%;
-    white-space: nowrap;
-    color: rgb(58, 61, 61);
+    font-size: calc(1vw + 1vh);
+    margin-top: 5%;
   }
+
+  img {
+    width: 20%;
+  }
+}
