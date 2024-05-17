@@ -74,3 +74,16 @@ hr {
 .slick-dots li.slick-active .custom-dot span {
   color: rgb(177, 79, 79);
 }
+
+
+@media (max-width: 768px) {
+  .teachers-card {
+    margin-left: 0;
+    justify-content: center;
+  }
+  
+  .teachers-img {
+    width: 40vw;
+    height: auto;
+  }
+}
