@@ -17,7 +17,6 @@ const teachers = [
     occupation: 'Founder and Teacher',
     info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque alias',
   },
-
   {
     image: 'media/Me.jpg',
     name: 'RABEDESANA Andry Narson',
@@ -30,7 +29,6 @@ const teachers = [
     occupation: 'Founder and Teacher',
     info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque alias',
   },
-  
 ];
 
 function Teachers() {
@@ -40,7 +38,14 @@ function Teachers() {
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 2000,
+    customPaging: function (i) {
+      return (
+        <div className="custom-dot">
+          <span>&#9679;</span>
+        </div>
+      );
+    },
   };
 
   return (
