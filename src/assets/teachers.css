@@ -1,58 +1,76 @@
-
 #teachers {
-    align-items: center;
-    background-color: #fff;
-    margin-top: 5%;
-  }
-  
-  .slick-arrow {
-    width: 50%;
-    height: 20%;
-    color: black;
-  }
+  align-items: center;
+  background-color: #fff;
+  margin-top: 5%;
+}
 
-  .rotate-180 {
-    transform: rotate(180deg);
-  }
+.slick-arrow {
+  width: 50%;
+  height: 20%;
+  color: black;
+}
 
-  .caroussel-wrapper {
-    width: 20%;
-    height: 20%;
-    background-color: black;
-  }
+.rotate-180 {
+  transform: rotate(180deg);
+}
 
-  .teachers-title {
-    font-size: calc(2.5vw + 1vh);
-    text-align: center;
-    margin-top: 5%;
-    margin-bottom: 3%;
-  }
+.caroussel-wrapper {
+  width: 20%;
+  height: 20%;
+  background-color: black;
+}
 
-  .teachers-card {
-    display: flex;
-    gap: 3%;
-    margin-left: 5%;
-  }
+.teachers-title {
+  font-size: calc(2.5vw + 1vh);
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
 
-  .teachers-img {
-    width: 20vw;
-    height: 40vh;
-  }
+.teachers-card {
+  display: flex;
+  gap: 3%;
+  margin-left: 5%;
+}
 
-  .teachers-name {
-    font-size: calc(1vw + 1vh);
-  }
+.teachers-img {
+  width: 20vw;
+  height: 40vh;
+}
 
+.teachers-name {
+  font-size: calc(1vw + 1vh);
+}
 
-  .teachers-occ {
-    font-size: calc(0.8vw + 1vh);
-    color: #ec5242;
-  }
+.teachers-occ {
+  font-size: calc(0.8vw + 1vh);
+  color: #ec5242;
+}
 
-  .teachers-para {
-    font-size: calc(0.6vw + 1vh);
-  }
+.teachers-para {
+  font-size: calc(0.6vw + 1vh);
+}
 
-  hr{
-    width: 20%;
-  }
+hr {
+  width: 20%;
+}
+
+/* Carousel custom dots */
+.custom-dot {
+  width: 20%;
+  height: 20%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 8%;
+}
+
+.custom-dot span {
+  font-size: 200%;
+  line-height: 100%;
+  color: rgb(158, 151, 151);
+}
+
+/* Target the active dot */
+.slick-dots li.slick-active .custom-dot span {
+  color: rgb(177, 79, 79);
+}
