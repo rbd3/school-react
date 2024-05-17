@@ -1,84 +1,84 @@
 .navbar {
-    margin-top: 0%;
-    margin-left: 10%;
-    font-size: 24px;
-  
-    .navbar-brand {
-      img {
-        width: 30%;
-        margin-top: 1%;
-      }
-  
-      p {
-        font-size: 24px;
-        font-weight: bold;
-        margin-top: 5%;
-      }
+  margin-top: 0%;
+  margin-left: 10%;
+  font-size: 24px;
+
+  .navbar-brand {
+    img {
+      width: 30%;
+      margin-top: 1%;
     }
-  
-    .nav-link {
-      margin: 0 0.8rem;
-    }
-  
-    .nav-item:hover {
-      background-color:  rgb(194, 194, 147);
-      border-radius: 10%;
-    }
-  
-    .navbar-collapse {
-      display: flex;
-      margin-right: 20%;
+
+    p {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 5%;
     }
   }
-  
-  .ml-auto {
+
+  .nav-link {
+    margin: 0 0.8rem;
+  }
+
+  .nav-item:hover {
+    background-color: rgb(194, 194, 147);
+    border-radius: 10%;
+  }
+
+  .navbar-collapse {
+    display: flex;
+    margin-right: 20%;
+  }
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.menu-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 8%;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    font-size: 18px;
+    display: flex; /* Add flexbox */
+    align-items: center;
+  }
+
+  .menu-icons {
+    margin-right: 2%;
+  }
+
+  .navbar-toggler-icon {
+    font-size: 70%;
+  }
+
+  .navbar-toggler {
     margin-left: auto;
   }
 
-  .menu-logo {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    margin-left: 8%;
+  #basic-navbar-nav {
+    margin: 0%;
+    padding-top: 0%;
+    padding-bottom: 5%;
   }
-  
-  @media screen and (max-width: 768px) {
-    .navbar {
-      font-size: 18px;
-      display: flex; /* Add flexbox */
-    align-items: center; 
+
+  .nav-item:hover {
+    background-color: rgb(194, 194, 147) !important;
+    border-radius: 0 !important;
+  }
+
+  .menu-logo {
+    font-size: 14px;
+    align-items: center;
+
+    img {
+      width: 20% !important;
+      margin-top: 1%;
     }
-
-    .menu-icons {
-        margin-right: 2%;
-      }
-  
-    .navbar-toggler-icon {
-      font-size: 70%;
-    }
-
-
-    .navbar-toggler {
-        margin-left: auto;
-      }
-
-    #basic-navbar-nav {
-        margin: 0%;
-        padding-top: 0%;
-        padding-bottom: 5%;
-    }
-
-    .nav-item:hover {
-        background-color: rgb(194, 194, 147) !important;
-        border-radius: 0 !important;
-      }
-
-      .menu-logo {
-        font-size: 14px;
-        align-items: center;
-        img {
-          width: 20% !important;
-          margin-top: 1%;
-        }
-      }
-    }
+  }
+}

@@ -1,9 +1,10 @@
-/* Apply the background color to the entire footer */
+
 .footer-wrapper {
   background-color: rgb(164, 133, 192);
-  padding: 3%; /* Optional: Add some padding for better spacing */
+  padding: 3%;
   display: flex;
   align-items: center;
+  margin-top: 6%;
 }
 
 /* Adjust styles for p elements inside the footer */
@@ -18,12 +19,6 @@
 .footer-wrapper p span {
   font-size: calc(0.3vw + 1vw);
   font-weight: 550;
-}
-
-/* Adjust styles for the footer */
-.footer-wrapper {
-  margin-top: 8%;
-  display: flex;
 }
 
 a {
@@ -56,7 +51,7 @@ img {
   }
 
   .footer-wrapper p {
-    font-size: calc(0.7vw + 1vh); /* Adjust font size for mobile */
+    font-size: calc(0.7vw + 1vh);
   }
 
   .footer-wrapper p span {

@@ -1,15 +1,14 @@
 #program {
-    background-image: url(media/cross.svg);
-    background-color: #272a31;
-    padding-bottom: 20px;
-  }
+  background-image: url(media/cross.svg);
+  background-color: #272a31;
+  padding-bottom: 20px;
+}
 
-  #program .wrapper {
-    justify-content: center;
-    width: 90%;
-    height: 100%;
-  }
-
+#program .wrapper {
+  justify-content: center;
+  width: 90%;
+  height: 100%;
+}
 
 .title {
   margin: 5% auto;
@@ -23,7 +22,6 @@
   padding-bottom: 1.3%;
   padding-top: 3%;
 }
-
 
 .tag {
   display: grid;
@@ -42,7 +40,6 @@
   background-color: rgba(162, 162, 162, 0.2);
   transition: all 0.5s ease-out;
 }
-
 
 .program-tag:hover {
   transform: scale(1.1);
@@ -82,8 +79,6 @@
   margin-top: 5%;
   border: none;
 }
-
-
 
 @media screen and (max-width: 768px) {
   .tag {

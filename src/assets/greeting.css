@@ -10,8 +10,7 @@
   color: transparent;
   background-clip: border-box;
   -webkit-background-clip: text;
-  }
-
+}
 
 #headline {
   padding-bottom: 5%;
@@ -28,7 +27,6 @@
   font-weight: 500;
   color: #ec5242;
 }
-
 
 .description {
   width: 80%;
