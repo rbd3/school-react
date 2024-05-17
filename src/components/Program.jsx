@@ -1,4 +1,4 @@
-import React from "react";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHandsHoldingChild, faTent, faDumbbell, faPersonRays } from "@fortawesome/free-solid-svg-icons";
 import '../assets/program.css';
@@ -26,7 +26,7 @@ function Program() {
                         <div className="program-tag">
                             <FontAwesomeIcon icon={faDumbbell} className="program-img card-icon" />
                             <h3 className="program-title">Alumni</h3>
-                            <p className="program-detail">You'll see here about some of the graduates and their testimony about the school</p>
+                            <p className="program-detail">You&apos;ll see here about some of the graduates and their testimony about the school</p>
                         </div>
                         <div className="program-tag">
                             <FontAwesomeIcon icon={faPersonRays} className="program-img card-icon" />

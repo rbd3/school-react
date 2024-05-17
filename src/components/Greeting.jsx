@@ -1,11 +1,12 @@
-import React from "react";
+
 import '../assets/greeting.css'
 
 function Greeting() {
     return (   
         <section id="headline" className="section">
             <div className="greeting wrapper">
-                <p>"Hello, Sharing world!"</p>
+            <p>&quot;Hello, Sharing world!&quot;</p>
+
             </div>
             <div className="wrapper">
                 <h1 className="h1-with-background">RABEDESANA high School<br/>For Technology<br/> 2024</h1>
