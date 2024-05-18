@@ -1,0 +1,32 @@
+
+  #headline {
+    text-align: left;
+  }
+
+  .wrapper .hello {
+    font-size: calc(3.5vw + 1vh);
+  }
+
+  .wrapper h1 {
+    font-size: calc(4.5vw + 1vh);
+    color: #d6220ec0;
+    font-weight: 700;
+  }
+
+  .description {
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    font-size: calc(1vw + 1vh);
+  }
+
+
+@media screen and (max-width: 768px) {
+    .description {
+        
+        font-size: calc(1.8vw + 1vh);
+      }
+  }
+  
