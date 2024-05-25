@@ -3,7 +3,7 @@ import { Navbar, Nav } from "react-bootstrap";
 import "../assets/menu.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
-import { NavLink } from "react-router-dom"; // Import NavLink from react-router-dom
+import { NavLink } from "react-router-dom";
 
 function Menu() {
   const [isNavOpen, setIsNavOpen] = useState(false);
