@@ -5,6 +5,7 @@ import Greeting from './components/Greeting';
 import Program from './components/Program';
 import Teachers from './components/Teachers';
 import About from './components/About';
+import Login from './components/Login';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           </>
         } />
         <Route path="/about" element={<About />} />
+        <Route path="/connexion" element={<Login />} />
         
       </Routes>
       <Footer />
