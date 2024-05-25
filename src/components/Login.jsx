@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import '../assets/login.css'
+import { Link } from 'react-router-dom'
 
 const Login = (props) => {
   const [email, setEmail] = useState('')
@@ -29,6 +30,7 @@ const Login = (props) => {
 
   return (
     <div className={'mainContainer'}>
+      <div className='login-title'>
       <div className={'inputContainer'}>
         <input
           value={email}
@@ -52,6 +54,10 @@ const Login = (props) => {
       <div className={'inputContainer'}>
         <input className={'inputButton'} type="button" onClick={onButtonClick} value={'Log in'} />
       </div>
+      <div className='signup-link'>
+        <p>Don't have an account? <Link to="/signup">Create account</Link></p>
+        </div>
+        </div>
     </div>
   )
 }
