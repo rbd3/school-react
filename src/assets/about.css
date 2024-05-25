@@ -38,6 +38,7 @@
     margin-top: 0%;
   }
 
+
   .line {
     width: 70.2%;
     display: flex;
@@ -48,6 +49,7 @@
 
   .line img {
     width: 50vh;
+    border: #d3d3d3 solid 5px;
   }
 
 @media screen and (max-width: 768px) {

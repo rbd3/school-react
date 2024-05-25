@@ -40,7 +40,7 @@ function About() {
         </div>
       </section>
 
-      <section id="gallery" className="py-5">
+      <section className="gallery">
         <div className="container">
           <h2 className="title text-center">See RBD School Gallery</h2>
           <p className="gallery-text text-center mb-4">Take a look at our Infrastructures and Programs</p>
