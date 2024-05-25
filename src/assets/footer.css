@@ -29,14 +29,12 @@ a {
 
 img {
   width: 30%;
-  
 }
 
 .logo-container {
   display: flex;
   align-items: center;
   margin-left: 20%;
-
 }
 
 .footer-links {
@@ -83,6 +81,5 @@ img {
     display: flex;
     align-items: center;
     margin-left: 2%;
-  
   }
 }

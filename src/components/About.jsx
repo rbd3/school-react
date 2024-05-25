@@ -1,4 +1,4 @@
-import React from 'react';
+
 import '../assets/about.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -7,7 +7,7 @@ function About() {
     <div>
       <section id="headline" className="section">
         <div className="greeting wrapper">
-          <p className='hello'>"Hello, Sharing world!"</p>
+          <p className='hello'>&quot;Hello, Sharing world!&quot;</p>
         </div>
         <div className="wrapper-about text-center">
           <h1>RABEDESANA High School<br />For Technology <br /> 2024</h1>
