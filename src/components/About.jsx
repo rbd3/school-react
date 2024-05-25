@@ -31,8 +31,10 @@ function About() {
           <div className="row">
             <div className="col text-center">
               <h2 className="title">RABEDESANA High School For Technology Logo</h2>
+              <div className="line">
               <p>The logo of RBD School embodies the essence of our institution. The dominant color of the logo is a captivating shade of blue, which symbolizes innovation, professionalism, and trust.</p>
               <img className="logo img-fluid" src="media/logo.png" alt="RBD School logo" />
+              </div>
             </div>
           </div>
         </div>
