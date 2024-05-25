@@ -9,10 +9,11 @@
     font-size: calc(3.5vw + 1vh);
   }
 
-  .wrapper h1 {
+  .wrapper-about h1 {
     font-size: calc(4.5vw + 1vh);
-    color: #0ed60ec0;
     font-weight: 700;
+    color: #ec5242;
+    text-align: left;
   }
 
   .description {
@@ -118,7 +119,7 @@
 
 @media screen and (max-width: 768px) {
     .description {
-        font-size: calc(1.8vw + 1vh);
+        font-size: calc(2vw + 1vh);
       }
 
       .row {
@@ -134,5 +135,31 @@
         width: 98%;
         height: auto;
       }
+
+      .line p {
+        font-size: calc(2vw + 1vh);
+      }
+
+
+  .title {
+    font-size: calc(5.5vw + 1vh);
+    color: #0a0a0ac0;
+    font-weight: 700;
+    background-image: linear-gradient(#ec5242, #ec5242);
+    background-size: 10% 3%;
+    margin-bottom: 1.5%;
+  
+  }
+
+
+  .wrapper .hello {
+    font-size: calc(5vw + 1vh);
+  }
+
+  .wrapper h1 {
+    font-size: calc(5.5vw + 1vh);
+    color: #0ed60ec0;
+    font-weight: 700;
+  }
   }
   

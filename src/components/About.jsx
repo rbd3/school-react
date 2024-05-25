@@ -6,10 +6,10 @@ function About() {
   return (
     <div>
       <section id="headline" className="section">
-        <div className="greeting wrapper text-center">
+        <div className="greeting wrapper">
           <p className='hello'>"Hello, Sharing world!"</p>
         </div>
-        <div className="wrapper text-center">
+        <div className="wrapper-about text-center">
           <h1>RABEDESANA High School<br />For Technology <br /> 2024</h1>
           <p className="description">
             RBD High School dedicated to providing exceptional opportunities in the field of computer science. With English as our primary language of instruction, we foster a global learning environment.
