@@ -27,6 +27,7 @@ function Menu() {
           <FontAwesomeIcon icon={faBars} />
         )}
       </Navbar.Toggle>
+      
       <Navbar.Collapse id="basic-navbar-nav" className={isNavOpen ? "show" : ""}>
         <Nav className="ml-auto">
           <Nav.Link as={NavLink} exact to="/" className="max-font-26 nav-item" activeClassName="active">
