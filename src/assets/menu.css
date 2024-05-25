@@ -25,6 +25,11 @@
     border-radius: 10%;
   }
 
+  .nav-item.active {
+    background-color: rgb(194, 194, 147);
+    border-radius: 10%;
+  }
+
   .navbar-collapse {
     display: flex;
     margin-right: 20%;
