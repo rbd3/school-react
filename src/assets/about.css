@@ -9,7 +9,7 @@
 
   .wrapper h1 {
     font-size: calc(4.5vw + 1vh);
-    color: #d6220ec0;
+    color: #0ed60ec0;
     font-weight: 700;
   }
 
@@ -20,6 +20,15 @@
     display: flex;
     align-items: flex-start;
     font-size: calc(1vw + 1vh);
+  }
+
+  .title {
+    font-size: calc(2vw + 1vh);
+    color: #0a0a0ac0;
+    font-weight: 700;
+    background-image: linear-gradient(#ec5242, #ec5242);
+  background-size: 10% 3%;
+  
   }
 
 

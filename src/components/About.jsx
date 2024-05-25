@@ -18,20 +18,20 @@ function About() {
             At RABEDESANA High School, we are committed to shaping future international professionals. Our cutting-edge curriculum equips students with the necessary knowledge and skills to thrive in the ever-evolving technological landscape. By joining us today,
             you or your children will embark on a transformative educational journey, unlocking numerous benefits.
             <br />
+            <br />
             Enroll at RABEDESANA High School for Technology and embrace a future full of possibilities!
           </p>
           <p className="contact">Please contact us per Email for any further questions about RBD School!</p>
-          <br />
           <p className="email"><strong><u>rbdschool@gmail.com</u></strong></p>
         </div>
       </section>
 
-      <section className="about-logo py-5 bg-light">
+      <section className="about-logo">
         <div className="container">
           <div className="row">
             <div className="col text-center">
-              <h2 className="title">RABEDESANA High School For Technology 2024 Logo</h2>
-              <p>The logo of RBD School 2023 embodies the essence of our institution. The dominant color of the logo is a captivating shade of blue, which symbolizes innovation, professionalism, and trust.</p>
+              <h2 className="title">RABEDESANA High School For Technology Logo</h2>
+              <p>The logo of RBD School embodies the essence of our institution. The dominant color of the logo is a captivating shade of blue, which symbolizes innovation, professionalism, and trust.</p>
               <img className="logo img-fluid" src="media/logo.png" alt="RBD School logo" />
             </div>
           </div>
