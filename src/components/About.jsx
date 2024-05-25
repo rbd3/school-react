@@ -40,12 +40,12 @@ function About() {
         </div>
       </section>
 
-      <section className="gallery">
+      <section className="gallery" id='gallery'>
         <div className="container">
           <h2 className="title text-center">See RBD School Gallery</h2>
-          <p className="gallery-text text-center mb-4">Take a look at our Infrastructures and Programs</p>
+          <p className="gallery-text text-center">Take a look at our Infrastructures and Programs</p>
           <div className="row">
-            <div className="col-md-6 mb-4">
+            <div className="col-md-6">
               <div className="gallery-frame position-relative">
                 <img src="media/high-school.jpg" alt="Infrastructures" className="gallery-img img-fluid" />
                 <div className="gallery-curtain position-absolute w-100 h-100 d-flex align-items-center justify-content-center">
@@ -53,7 +53,7 @@ function About() {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 mb-4">
+            <div className="col-md-6">
               <div className="gallery-frame position-relative">
                 <img src="media/school.webp" alt="Programs" className="gallery-img img-fluid" />
                 <div className="gallery-curtain position-absolute w-100 h-100 d-flex align-items-center justify-content-center">
@@ -64,6 +64,7 @@ function About() {
           </div>
         </div>
       </section>
+      
     </div>
   );
 }
