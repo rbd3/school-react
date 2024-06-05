@@ -1,0 +1,156 @@
+
+#headline {
+  text-align: left;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+
+.wrapper .hello {
+  font-size: calc(3.5vw + 1vh);
+}
+
+.wrapper-about h1 {
+  font-size: calc(4.5vw + 1vh);
+  font-weight: 700;
+  color: #ec5242;
+  text-align: left;
+}
+
+.description {
+  width: 100%;
+  max-width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: flex-start;
+  font-size: calc(1vw + 1vh);
+}
+
+.title {
+  font-size: calc(2vw + 1vh);
+  color: #0a0a0ac0;
+  font-weight: 700;
+  background-image: linear-gradient(#ec5242, #ec5242);
+  background-size: 10% 3%;
+  margin-bottom: 1.5%;
+}
+
+.about-logo h2 {
+  margin-top: 0%;
+}
+
+.line {
+  width: 70.2%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 16%;
+}
+
+.line img {
+  width: 50vh;
+  border: #d3d3d3 solid 5px;
+}
+
+/* Gallery */
+
+#gallery {
+  background-color: #fff;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin-top: 1%;
+  margin-bottom: 0%;
+}
+
+.row {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.gallery-text {
+  color: rgba(128, 128, 128, 1);
+  font-weight: bold;
+}
+
+.gallery-container {
+  padding-bottom: 2.5%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20%;
+}
+
+.gallery-frame {
+  margin-top: 5%;
+  height: auto;
+}
+
+.gallery .gallery-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery .gallery-curtain {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  background-color: #ec5342c0;
+  width: 100%;
+  height: 100%;
+  transition: 0.2s;
+}
+
+.gallery-curtain:hover {
+  opacity: 0;
+}
+
+.curtain-text {
+  font-size: 32px;
+  font-family: "COCOGOOSE", sans-serif;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .description {
+    font-size: calc(2vw + 1vh);
+  }
+
+  .row {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0; /* Adjusting the grid gap to 0 to remove space between items */
+  }
+
+  .gallery-frame {
+    margin: 1% 0; /* Adjusting the margin to reduce space between elements */
+    width: 98%;
+    height: auto;
+  }
+
+  .line p {
+    font-size: calc(2vw + 1vh);
+  }
+
+  .title {
+    font-size: calc(5.5vw + 1vh);
+    color: #0a0a0ac0;
+    font-weight: 700;
+    background-image: linear-gradient(#ec5242, #ec5242);
+    background-size: 10% 3%;
+    margin-bottom: 1.5%;
+  }
+
+  .wrapper .hello {
+    font-size: calc(5vw + 1vh);
+  }
+
+  .wrapper-about h1 {
+    font-size: calc(5.5vw + 1vh);
+    color: #0ed60ec0;
+    font-weight: 700;
+  }
+}
