@@ -1,13 +1,16 @@
 .mainContainer {
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: aqua;
-    width: 60vw;
-    height: auto;
-    margin-left: 20%;
-  }
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 155, 1);
+  width: 60vw;
+  height: auto;
+  margin-left: 20%;
+
+}
+
+
   
   .login-title {
     display: flex;
@@ -26,6 +29,10 @@
   .inputContainer > .errorLabel {
     color: red;
     font-size: 1rem;
+  }
+
+  .inputBox::placeholder {
+    color: black;
   }
   
   .inputBox {
