@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../assets/login.css';
 import { Link } from 'react-router-dom';
@@ -81,7 +81,7 @@ const Login = () => {
           <input className={'inputButton'} type="button" onClick={onButtonClick} value={'Log in'} />
         </div>
         <div className='signup-link'>
-          <p>Don't have an account? <Link to="/signup">Create account</Link></p>
+          <p>Don&apos;t have an account? <Link to="/signup">Create account</Link></p>
         </div>
       </div>
     </div>

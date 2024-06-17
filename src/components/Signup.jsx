@@ -1,5 +1,5 @@
 import '../assets/signup.css'; // Import your CSS file
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const Signup = () => {
