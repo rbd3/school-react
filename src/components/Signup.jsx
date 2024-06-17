@@ -1,4 +1,4 @@
-import '../assets/signup.css';
+import '../assets/signup.css'; // Import your CSS file
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -8,7 +8,6 @@ const Signup = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [passwordConfirmation, setPasswordConfirmation] = useState('');
-  const [role, setRole] = useState('');
   const [errors, setErrors] = useState({});
 
   const navigate = useNavigate();
@@ -17,12 +16,11 @@ const Signup = () => {
     setErrors({});
 
     const newErrors = {};
-    if (firstName === '') newErrors.firstName = 'First Name is required';
-    if (lastName === '') newErrors.lastName = 'Last Name is required';
+    if (firstName === '' || lastName === '') newErrors.firstName = 'First Name or Last Name is required';
     if (email === '') newErrors.email = 'Email is required';
     if (password === '') newErrors.password = 'Password is required';
     if (passwordConfirmation === '') newErrors.passwordConfirmation = 'Password Confirmation is required';
-    if (role === '') newErrors.role = 'Role is required';
+    if (password !== passwordConfirmation) newErrors.passwordConfirmation = 'Password and Password Confirmation must match';
 
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors);
@@ -42,7 +40,6 @@ const Signup = () => {
             email, 
             password, 
             password_confirmation: passwordConfirmation, 
-            role 
           }
         }),
       });
@@ -64,59 +61,56 @@ const Signup = () => {
   };
 
   return (
-    <div className={'mainContainer'}>
+    <div className='mainContainer'> 
       <div className='signup-title'>
-        <div className={'inputContainer'}>
+        <div className='inputContainer'> 
           <input
             value={firstName}
             onChange={(e) => setFirstName(e.target.value)}
             placeholder='First Name'
+            className='inputBox'
           />
           <div className='error'>{errors.firstName}</div>
         </div>
-        <div className={'inputContainer'}>
+        <div className='inputContainer'> 
           <input
             value={lastName}
             onChange={(e) => setLastName(e.target.value)}
             placeholder='Last Name'
+            className='inputBox'
           />
           <div className='error'>{errors.lastName}</div>
         </div>
-        <div className={'inputContainer'}>
+        <div className='inputContainer'>
           <input
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder='Email'
+            className='inputBox'
           />
           <div className='error'>{errors.email}</div>
         </div>
-        <div className={'inputContainer'}>
+        <div className='inputContainer'>
           <input
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             placeholder='Password'
             type='password'
+            className='inputBox'
           />
           <div className='error'>{errors.password}</div>
         </div>
-        <div className={'inputContainer'}>
+        <div className='inputContainer'>
           <input
             value={passwordConfirmation}
             onChange={(e) => setPasswordConfirmation(e.target.value)}
             placeholder='Password Confirmation'
             type='password'
+            className='inputBox'
           />
           <div className='error'>{errors.passwordConfirmation}</div>
         </div>
-        <div className={'inputContainer'}>
-          <input
-            value={role}
-            onChange={(e) => setRole(e.target.value)}
-            placeholder='Role'
-          />
-          <div className='error'>{errors.role}</div>
-        </div>
-        <button onClick={onButtonClick}>Signup</button>
+        <button className='inputButton' onClick={onButtonClick}>Sign up</button>
         <div className='error'>{errors.signup}</div>
       </div>
     </div>
@@ -124,5 +118,3 @@ const Signup = () => {
 };
 
 export default Signup;
-
- 
