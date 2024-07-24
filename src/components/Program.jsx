@@ -2,6 +2,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHandsHoldingChild, faTent, faDumbbell, faPersonRays } from "@fortawesome/free-solid-svg-icons";
 import '../assets/program.css';
+import { Link } from "react-router-dom";
 
 function Program() {
     return (
@@ -34,7 +35,11 @@ function Program() {
                             <p className="program-detail">Here speak about the Activities that the school prepares or takes part in</p>
                         </div>
                     </div>
-                    <a href="#" className="desktop-link max-font-26"><button type="button" className="join-btn">Join RBD School Now</button></a>
+                    <p className="desktop-link max-font-26">
+                        <Link to="/signup">
+                            <button type="button" className="join-btn">Join RBD School Now</button>
+                        </Link>
+                    </p>
                 </div>
             </div>
         </section>

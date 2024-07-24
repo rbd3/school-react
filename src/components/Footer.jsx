@@ -16,7 +16,7 @@ function Footer() {
           | RABEDESANA High School
           <span>
             <br /><br />
-            Copyright © 2024
+            Copyright &copy; {new Date().getFullYear()}
           </span>
         </p>
       </div>
