@@ -34,7 +34,7 @@
 }
 
 .inputBox::placeholder {
-  color: black;
+  color: rgb(97, 92, 92) !important;
 }
 
 .inputBox {
